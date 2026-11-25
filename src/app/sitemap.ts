@@ -1,7 +1,7 @@
 
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://everyday-tools-hub.vercel.app";
+const BASE_URL = "https://everyday-tools-hub-phi.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
