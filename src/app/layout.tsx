@@ -1,5 +1,5 @@
 
-import type { Metadata } from "next";
+import type { Metadata } from"next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -14,6 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    "https://everyday-tools-hub-phi.vercel.app"
+  ),
+
   title: {
     default: "EverydayToolsHub - Free Online Tools",
     template: "%s | EverydayToolsHub",
@@ -37,6 +41,9 @@ export const metadata: Metadata = {
   ],
 
   authors: [{ name: "EverydayToolsHub" }],
+
+  verification: {
+  google: "DG44bYSWIZ3dDDWp9i1tdVDMx27x9s_IxdsW2o3QT20",},
 
   robots: {
     index: true,
